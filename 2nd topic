@@ -1,0 +1,26 @@
+tursynk.e@Noutbuk-Eleonora lab % mkdir work
+
+tursynk.e@Noutbuk-Eleonora lab % cd work
+
+tursynk.e@Noutbuk-Eleonora work % touch hello.html
+
+tursynk.e@Noutbuk-Eleonora work % nano hello.html
+
+tursynk.e@Noutbuk-Eleonora work % git init
+
+Initialized empty Git repository in /Users/tursynk.e/Desktop/lab/work/.git/
+tursynk.e@Noutbuk-Eleonora work % git add hello.html
+
+tursynk.e@Noutbuk-Eleonora work % git commit -m "Initial commit"
+
+[main (root-commit) 6d13763] Initial commit
+ 1 file changed, 12 insertions(+)
+ create mode 100644 hello.html
+tursynk.e@Noutbuk-Eleonora work % git status
+
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	hello.ht
+
+nothing added to commit but untracked files present (use "git add" to track)
