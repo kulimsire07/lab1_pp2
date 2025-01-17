@@ -1,0 +1,14 @@
+tursynk.e@Noutbuk-Eleonora work % git add hello.html
+
+tursynk.e@Noutbuk-Eleonora work % git add hello.ht
+
+tursynk.e@Noutbuk-Eleonora work % git commit -m "Updated hello.html and added hello.ht"
+
+[main 9576308] Updated hello.html and added hello.ht
+ 2 files changed, 13 insertions(+), 11 deletions(-)
+ create mode 100644 hello.ht
+tursynk.e@Noutbuk-Eleonora work % git status
+
+On branch main
+nothing to commit, working tree clean
+
