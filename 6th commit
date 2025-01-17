@@ -1,0 +1,104 @@
+tursynk.e@Noutbuk-Eleonora work % touch a.html
+touch b.html
+touch c.html
+
+tursynk.e@Noutbuk-Eleonora work % ls
+
+a.html		b.html		c.html		hello.ht	hello.html
+tursynk.e@Noutbuk-Eleonora work % echo "<html><body><h1>File A</h1></body></html>" > a.html
+
+tursynk.e@Noutbuk-Eleonora work % echo "<html><body><h1>File B</h1></body></html>" > b.html
+
+tursynk.e@Noutbuk-Eleonora work % echo "<html><body><h1>File C</h1></body></html>" > c.html
+
+tursynk.e@Noutbuk-Eleonora work % cat a.html
+cat b.html
+cat c.html
+
+<html><body><h1>File A</h1></body></html>
+<html><body><h1>File B</h1></body></html>
+<html><body><h1>File C</h1></body></html>
+tursynk.e@Noutbuk-Eleonora work % git add a.html b.html c.html
+
+tursynk.e@Noutbuk-Eleonora work % git status
+
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   a.html
+	new file:   b.html
+	new file:   c.html
+
+tursynk.e@Noutbuk-Eleonora work % git commit -m "Add a.html, b.html, and c.html"
+
+[main 6f1f774] Add a.html, b.html, and c.html
+ 3 files changed, 3 insertions(+)
+ create mode 100644 a.html
+ create mode 100644 b.html
+ create mode 100644 c.html
+tursynk.e@Noutbuk-Eleonora work % nano a.html
+nano b.html
+
+tursynk.e@Noutbuk-Eleonora work % git status
+
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   a.html
+	modified:   b.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+tursynk.e@Noutbuk-Eleonora work % git add a.html b.html
+
+tursynk.e@Noutbuk-Eleonora work % git commit -m "Changes for a.html and b.html"
+
+[main 15d5d87] Changes for a.html and b.html
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+tursynk.e@Noutbuk-Eleonora work % nano c.html
+
+tursynk.e@Noutbuk-Eleonora work % git status
+
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   c.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+tursynk.e@Noutbuk-Eleonora work % git add c.html
+
+tursynk.e@Noutbuk-Eleonora work % git commit -m "Unrelated change to c.html"
+
+[main 6add47a] Unrelated change to c.html
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+tursynk.e@Noutbuk-Eleonora work % git status
+
+On branch main
+nothing to commit, working tree clean
+tursynk.e@Noutbuk-Eleonora work % git log
+
+commit 6add47a0a603fc303e1103b3e5595c35fd74562c (HEAD -> main)
+Author: kulimsire07 <e_tursynkul@kbtu.kz>
+Date:   Fri Jan 17 15:17:45 2025 +0500
+
+    Unrelated change to c.html
+
+commit 15d5d872a2f3c03bb89a592459ead2d35883810c
+Author: kulimsire07 <e_tursynkul@kbtu.kz>
+Date:   Fri Jan 17 15:16:53 2025 +0500
+
+    Changes for a.html and b.html
+
+commit 6f1f77497f29f2feb6eb53b8c178fb6d6edeba58
+Author: kulimsire07 <e_tursynkul@kbtu.kz>
+Date:   Fri Jan 17 15:11:58 2025 +0500
+
+    Add a.html, b.html, and c.html
+
+commit 9576308629036eaa8f27c1597def20945fc4821f
+Author: kulimsire07 <e_tursynkul@kbtu.kz>
+Date:   Fri Jan 17 15:03:21 2025 +0500
+
+    Updated hello.html and added hello.ht
+:
