@@ -1,17 +1,16 @@
 tursynk.e@Noutbuk-Eleonora lab % git config --global user.name "kulimsire07"
-tursynk.e@Noutbuk-Eleonora lab % git config --global user.email "e_tursynkul@kbtu.kz" 
-tursynk.e@Noutbuk-Eleonora lab % git config --list
+git config --global user.email "e_tursynkul@kbtu.kz"
 
-credential.helper=osxkeychain
-init.defaultbranch=main
+tursynk.e@Noutbuk-Eleonora lab % git config --global init.defaultBranch main
+
+tursynk.e@Noutbuk-Eleonora lab % git config --global core.autocrlf input
+git config --global core.safecrlf warn
+
+tursynk.e@Noutbuk-Eleonora lab % git config --global --list
+
 user.name=kulimsire07
 user.email=e_tursynkul@kbtu.kz
-core.autocrlf=true
+core.autocrlf=input
 core.safecrlf=warn
-core.repositoryformatversion=0
-core.filemode=true
-core.bare=false
-core.logallrefupdates=true
-core.ignorecase=true
-core.precomposeunicode=true
-remote.origin.url=https://github.com/kulimsire07/pp2_lab.
+init.defaultbranch=main
+
