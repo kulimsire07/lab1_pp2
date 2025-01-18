@@ -1,0 +1,63 @@
+tursynk.e@Noutbuk-Eleonora work % git log
+
+$ git log
+commit b7614c1aea1ffbc46400fe1a163842d6ec620a43
+Author: kulimsire07 <e_tursynkul@kbtu.kz>
+Date:   Sat Jan 18 19:47:23 2025 +0500
+
+    Added HTML header
+
+commit 46afaff2232fc3d564c40f65cb82e7e94839a1bb
+Author: kulimsire07 <e_tursynkul@kbtu.kz>
+Date:   Sat Jan 18 19:46:58 2025 +0500
+
+    Added standard HTML page tags
+
+commit 78433de967102f2b59d0a8a60eb397b2663ed282
+Author: kulimsire07 <e_tursynkul@kbtu.kz>
+Date:   Sat Jan 18 19:39:09 2025 +0500
+
+    Added h1 tag
+
+commit 58369706affbc1c27fa03a65fc7a05847278045f
+Author: kulimsire07 <e_tursynkul@kbtu.kz>
+Date:   Sat Jan 18 19:35:25 2025 +0500
+
+    Initial commit
+    
+tursynk.e@Noutbuk-Eleonora work % git log --oneline
+
+$ git log --oneline
+b7614c1 Added HTML header
+46afaff Added standard HTML page tags
+78433de Added h1 tag
+5836970 Initial commit
+
+tursynk.e@Noutbuk-Eleonora work % git log --oneline --max-count=2
+
+$ git log --oneline --max-count=2
+b7614c1 Added HTML header
+46afaff Added standard HTML page tags
+
+tursynk.e@Noutbuk-Eleonora work % git log --oneline --until="5 minutes ago"
+
+309a1d5 (HEAD -> main) Unrelated change to c
+f8dcadf Changes for a and b
+b696cda Initial commit
+
+tursynk.e@Noutbuk-Eleonora work % git log --oneline --since="1 month ago"
+tursynk.e@Noutbuk-Eleonora work % git log --pretty=format:"%h %ad | %s%d [%an]" --date=short
+
+tursynk.e@Noutbuk-Eleonora work % git log --pretty=format:"%h %ad | %s%d [%an]" --date=short
+tursynk.e@Noutbuk-Eleonora work % git log --pretty=format:"%h %ad | %s%d [%an]" --date=short
+
+b7614c1 2025-01-18 | Added HTML header (HEAD -> main) [kulimsire07]
+46afaff 2025-01-18 | Added standard HTML page tags [kulimsire07]
+78433de 2025-01-18 | Added h1 tag [kulimsire07]
+5836970 2025-01-18 | Initial commit [kulimsire07]
+
+
+
+
+
+
