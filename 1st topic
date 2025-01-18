@@ -1,16 +1,23 @@
-tursynk.e@Noutbuk-Eleonora lab % git config --global user.name "kulimsire07"
-git config --global user.email "e_tursynkul@kbtu.kz"
+tursynk.e@Noutbuk-Eleonora ~ % cd ~/Desktop/my-git-project
 
-tursynk.e@Noutbuk-Eleonora lab % git config --global init.defaultBranch main
+tursynk.e@Noutbuk-Eleonora my-git-project % git init
 
-tursynk.e@Noutbuk-Eleonora lab % git config --global core.autocrlf input
-git config --global core.safecrlf warn
+Переинициализирован существующий репозиторий Git в /Users/tursynk.e/Desktop/my-git-project/.git/
+tursynk.e@Noutbuk-Eleonora my-git-project % git remote add origin https://github.com/kulimsire07/my-git-project.git
 
-tursynk.e@Noutbuk-Eleonora lab % git config --global --list
+error: внешний репозиторий origin уже существует
+tursynk.e@Noutbuk-Eleonora my-git-project %  git config --global user.name "kulimsire07"
+tursynk.e@Noutbuk-Eleonora my-git-project % git config --global user.email "e_tursynkul@kbtu.kz"
+tursynk.e@Noutbuk-Eleonora my-git-project % git config --global init.defaultBranch main
 
+tursynk.e@Noutbuk-Eleonora my-git-project % git config --global core.autocrlf input
+tursynk.e@Noutbuk-Eleonora my-git-project % git config --global core.safecrlf warn
+tursynk.e@Noutbuk-Eleonora my-git-project % git config --global --list
 user.name=kulimsire07
 user.email=e_tursynkul@kbtu.kz
 core.autocrlf=input
 core.safecrlf=warn
 init.defaultbranch=main
+format.pretty=%h %ad | %s%d [%an]
+log.date=short
 
