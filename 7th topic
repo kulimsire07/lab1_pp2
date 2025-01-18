@@ -1,0 +1,35 @@
+tursynk.e@Noutbuk-Eleonora work % git status
+
+On branch main
+Changes not staged for commit:
+  modified:   hello.html
+  
+tursynk.e@Noutbuk-Eleonora work % git add hello.html
+tursynk.e@Noutbuk-Eleonora work % git status
+
+On branch main
+Changes to be committed:
+  modified:   hello.html
+  
+tursynk.e@Noutbuk-Eleonora work % git commit -m "Added a paragraph tag to hello.html"
+[main 7f18e3f] Added a paragraph tag to hello.html
+ 1 file changed, 1 insertion(+)
+tursynk.e@Noutbuk-Eleonora work % git log
+
+commit 7f18e3f9c1234567890abcdef1234567890abcde
+Author: kulimsire07 <e_tursynkul@kbtu.kz>
+Date:   Sat Jan 18 20:00:00 2025 +0500
+
+    Added a paragraph tag to hello.html
+
+commit 6d712e13d1a850b01e33963794211d319dbeddf2
+Author: kulimsire07 <e_tursynkul@kbtu.kz>
+Date:   Sat Jan 18 19:39:09 2025 +0500
+
+    Update Hello, World page
+
+tursynk.e@Noutbuk-Eleonora work % git status
+On branch main
+nothing to commit, working tree clean
+
+
