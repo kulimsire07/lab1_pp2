@@ -1,0 +1,20 @@
+tursynk.e@Noutbuk-Eleonora work % nano hello.html
+tursynk.e@Noutbuk-Eleonora work %  git add hello.html
+tursynk.e@Noutbuk-Eleonora work %  git status
+
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+  modified:   hello.html
+tursynk.e@Noutbuk-Eleonora work %  git restore --staged hello.html
+
+$ git restore --staged hello.html
+
+tursynk.e@Noutbuk-Eleonora work % git restore hello.html
+tursynk.e@Noutbuk-Eleonora work % git status
+
+$ git restore hello.html
+$ git status
+On branch main
+nothing to commit, working tree clean
