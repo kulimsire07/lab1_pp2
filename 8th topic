@@ -1,0 +1,46 @@
+tursynk.e@Noutbuk-Eleonora work % nano hello.html
+tursynk.e@Noutbuk-Eleonora work % git add hello.html
+tursynk.e@Noutbuk-Eleonora work % git status
+ 
+
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.html
+tursynk.e@Noutbuk-Eleonora work % git commit -m "Added standard HTML page tags"
+tursynk.e@Noutbuk-Eleonora work % git status
+ On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+        modified:   hello.html
+no changes added to commit (use "git add" and/or "git commit -a")
+
+tursynk.e@Noutbuk-Eleonora work %  git add .
+tursynk.e@Noutbuk-Eleonora work %  git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello.html
+
+tursynk.e@Noutbuk-Eleonora work %  git commit -m "Added HTML header"
+tursynk.e@Noutbuk-Eleonora work %  git log
+
+commit b7614c1 (HEAD -> main)
+Author: kulimsire07 <e_tursynkul@kbtu.kz>
+Date:   Sat Jan 18 20:01:12 2025 +0500
+
+    Added HTML header
+
+commit 46afaff (HEAD -> main)
+Author: kulimsire07 <e_tursynkul@kbtu.kz>
+Date:   Sat Jan 18 20:02:32 2025 +0500
+
+    Added standard HTML page tags
+
+
+
